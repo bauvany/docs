@@ -3,11 +3,14 @@
   "theme": "mint",
   "name": "Navae",
   "colors": {
-    "primary": "#108080",
-    "light": "#108080",
-    "dark": "#108080"
+    "primary": "#104080",
+    "light": "#104080",
+    "dark": "#104080"
   },
-  "favicon": "/app-icon.svg",
+  "favicon": {
+    "light": "https://tarmxbxcxldxxykubkox.supabase.co/storage/v1/object/public/navae-logos/navae-logo.svg",
+    "dark": "https://tarmxbxcxldxxykubkox.supabase.co/storage/v1/object/public/navae-logos/navae-logo.svg"
+  },
   "navigation": {
     "global": {
       "anchors": [
@@ -40,7 +43,10 @@
       }
     ]
   },
-  "logo": "/app-icon.svg",
+  "logo": {
+    "light": "https://tarmxbxcxldxxykubkox.supabase.co/storage/v1/object/public/navae-logos/navae-logo.svg",
+    "dark": "https://tarmxbxcxldxxykubkox.supabase.co/storage/v1/object/public/navae-logos/navae-logo.svg"
+  },
   "navbar": {
     "links": [
       {
@@ -80,5 +86,8 @@
   },
   "styling": {
     "latex": true
+  },
+  "icons": {
+    "library": "lucide"
   }
 }
