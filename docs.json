@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Navae",
   "colors": {
     "primary": "#104080",
@@ -52,7 +52,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:navae.framer.ai"
+        "href": "mailto:hellohello@navae.app"
       }
     ],
     "primary": {
@@ -74,7 +74,7 @@
    ]
   },
   "fonts": {
-    "family": "Comfortaa"
+    "family": "Outfit"
   },
   "appearance": {
     "default": "system"
