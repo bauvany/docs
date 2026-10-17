@@ -1,0 +1,35 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="insetShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feComponentTransfer in="SourceAlpha">
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feGaussianBlur stdDeviation="8"/>
+      <feOffset dx="0" dy="0" result="offsetblur"/>
+      <feFlood flood-color="rgba(0,0,0,0.4)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feComposite in2="SourceAlpha" operator="in"/>
+      <feMerge>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode/>
+      </feMerge>
+    </filter>
+    <radialGradient id="a" cx="50%" cy="50%" r="100%" fx="50%" fy="100%" gradientUnits="objectBoundingBox">
+      <stop stop-color="#104080"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </radialGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="url(#a)" paint-order="stroke"/>
+  <svg width="500" height="500" viewBox="0 0 200 200" x="6" y="6" alignment-baseline="middle" style="color:#fff;width:500px;height:500px">
+    <g stroke="url(#b)" stroke-width="6">
+      <circle cx="100" cy="100" r="68"/>
+      <ellipse cx="100" cy="100" rx="50" ry="68"/>
+      <ellipse cx="100" cy="100" rx="30" ry="68"/>
+    </g>
+    <ellipse cx="100" cy="100" rx="8" ry="16" fill="url(#b)"/>
+  </svg>
+</svg>

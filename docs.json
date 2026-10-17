@@ -8,8 +8,8 @@
     "dark": "#104080"
   },
   "favicon": {
-    "light": "https://tarmxbxcxldxxykubkox.supabase.co/storage/v1/object/public/navae-logos/navae-logo.svg",
-    "dark": "https://tarmxbxcxldxxykubkox.supabase.co/storage/v1/object/public/navae-logos/navae-logo.svg"
+    "light": "/images/navae-logo.svg",
+    "dark": "/images/navae-logo.svg"
   },
   "navigation": {
     "global": {
@@ -44,8 +44,9 @@
     ]
   },
   "logo": {
-    "light": "https://tarmxbxcxldxxykubkox.supabase.co/storage/v1/object/public/navae-logos/navae-logo.svg",
-    "dark": "https://tarmxbxcxldxxykubkox.supabase.co/storage/v1/object/public/navae-logos/navae-logo.svg"
+    "light": "/images/navae-logo.svg",
+    "dark": "/images/navae-logo.svg",
+    "href": "https://navae.app"
   },
   "navbar": {
     "links": [
